@@ -8,7 +8,7 @@
 #ifndef ROESIM_H
 #define	ROESIM_H
 
-#define ROE_DEV         "/dev/ttyUSB0"
+#define ROE_DEV         "/dev/ttyUSB2"
 
 int readFC(int fd, char *data, int size);
 int receiveCmd(int fd, char *data, int size, char target);
